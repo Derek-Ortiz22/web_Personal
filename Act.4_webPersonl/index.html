@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mi pagina web</title>
+        <style>
+            body{
+                background-color: silver;
+                font-family: Arial, Helvetica, sans-serif;
+                margin: 0;
+                padding: 0;
+                line-height: 1.6;
+                text-align: center;
+            }
+            header{
+                background-image: url('image/fondo.jpg');
+                background-size: cover;
+                background-position: center;
+                height: 200px;
+                text-align: center;
+                padding: 20px;
+            }
+            p {
+                line-height: 0.5;
+            }
+            header h1{
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                color: white;
+            }
+             nav ul{
+                list-style: none;
+             }
+             nav ul li{
+                display:  inline;
+                margin: 0 15px;
+             }
+             nav ul li a{
+                color: white;
+                text-decoration: none;
+                font-weight: bold;
+            }
+            nav ul li a:hover{
+                color: gold;
+            }
+            nav ul{
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            main{
+                padding: 20px;
+            }
+            section{    
+                 background-color: white;
+                    padding: 15px;
+                    margin-left: 100px;
+                    margin-right: 20px;
+                    border-radius: 10px;
+                    text-align: center;
+                    border-left :  8px solid black;
+            }
+            article{
+                background-color: white;
+                padding: 15px;
+                margin-left: 100px;      
+                width: 40%;
+                border-radius: 10px;
+                text-align: left;
+                border-left: 8px solid black;
+            }
+            .conjunto{
+                display: flex;
+                align-items: flex-start;
+                gap: 20px;
+
+            }
+            .conjunto img.lateral{
+                 width: 250px;  
+                 height: auto;
+                 border-radius: 10px;
+                 margin-left: 200px;
+            }
+            article ol{
+                 list-style-position: inside;
+                 padding-left: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+        <h1>¿QUIEN ES DEREK?</h1>
+        <nav>
+            <ul>
+                <li><a href="Trabajo.html">Trabajo</a></li>
+                <li><a href="Estudios.html">Estudios</a></li>
+            </ul>
+        </nav>
+        </header>
+        <main>
+            <section>
+                    <h1>PRESENTACIÓN</h1>
+                    <p>Soy un hombre de 19 años de edad, nacido en Leon GTO.</p> 
+                    <p>Me gusta vestir bien, las perforaciones, tatuajes y videojuegos.</p>
+                    <p>Mis hobits son el ver anime, jugar videiojuegos y escuchar musica.</p>
+            </section>
+            <br>
+            <div class="conjunto">
+            <article>
+                <h2>METAS</h2>
+                <ol>
+                    <li>Terminar mis estudios</li>
+                    <li>Poder conseguir un trabajo donde pueda ejerzer mi carrera</li>
+                    <li>Tener una casa propia</li>
+                    <li>Poder hacerme todos mis tatuajes deseados</li>
+                    <li>Ver el final de One Piece</li>
+                </ol>
+            </article>
+            <img src="image/Metas.2.jpg" alt="Foto metas" class="lateral">
+            </div>
+        </main>
+    </body>
+</html>
